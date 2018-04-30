@@ -3,6 +3,33 @@
 
 	<head>
 		<title>Susie's Portfolio</title>
+			<link href="style.css" rel="stylesheet" type="text/css"/>
+			<style>
+				table, th, td {
+					border: 1px solid #292533; /*Double blessing by Skyblue2u - www.colourlovers.com/colors*/
+
+					padding: 5px 10px 5px 10px; /*top right bottom left*/
+
+					border-spacing: 2px 5px; /*top/bottom & right/left*/
+				}
+
+				table{
+					width: 100%
+				}
+
+				td, th {
+					height: 30px;
+				}
+
+				th {
+					background-color: #5b7d87; /*hush by oblivious - colourlovers.com */
+					color: white; 
+				}
+
+				tr:nth-child(odd){
+					background-color: #d5d2cb; /*in flowers by kikajou888 - colourlovers.com*/
+				}
+			</style>
 	</head>
 
 	<body>
@@ -11,9 +38,13 @@
 		</div>
 	
 		<div id="porfolioNavbar">
-			<hr/>
-				<a href="index.html">Home</a>
-			<hr/>
+			<hr style="border-top: 3px double #A6E1CE;"/>	
+			<p>
+				<a href="index.html">Portfolio</a>
+				<a href="contactMe.html">Contact Me</a>
+				<a href="testimonials.html">Testimonials</a>
+			<hr style="border-top: 3px double #A6E1CE;"/>	
+			</p>
 		</div>
 	
 	<div id="main">
@@ -25,7 +56,6 @@
 						<p><a href="https://i.imgur.com/EdQJL5B.jpg" target=”_blank”>SuzTheTechMuse</a></p>
 				</div>
 					<div class="content">
-						<p>Awesome stuff about me</p> 
 						<p>Awesome stuff about me</p> 
 					</div>
 		</div>
@@ -72,6 +102,7 @@
 		</div>
 	
 		<div id="hobbies">
+			</style>
 			<div class="image">
 				<img src="https://i.imgur.com/JReUmvx.jpg"
 					 alt="Photograph of Suz reflection at coffeeshop">
@@ -104,6 +135,35 @@
 							<li>Virtual Pace Series</li>
 						</ul>
 				</div>
+		</div>
+
+		<div id="formExample">
+			<form method="POST">
+				TextBox here <input type="text" name="textInput">
+				Radio Buttons: <br>
+				<input type="radio" name="answer" value="Yes" checked/>Yes<br>
+				<input type="radio" name="answer" value="No" checked/>No<br>
+				<input type="radio" name="answer" value="Maybe" checked/>Maybe<br>
+				<br>
+				Password Please <input type="passwordInput" name="typePasswordInput"/><br>
+				<input type="submit"/>
+				<input type="reset"/><br><br>	
+				<input type="checkbox" name="foodChoices" value="salad">Salad<br>
+				<input type="checkbox" name="foodChoices" value="burger">Burger<br>		
+				<br>
+				
+				Select A Pet<select name="selectPet">
+					<option value="default">Select a Pet</option>
+					<option value="cat">Cat</option>
+					<option value="dog">Dog</option>
+					<option value="frog">Frog</option>
+				</select>
+				<br><br>
+
+				Textbox <textarea name="textArea">
+
+				</textarea>
+			</form>
 		</div>
 	</div>
 		
