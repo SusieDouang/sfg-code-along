@@ -56,7 +56,6 @@ fieldset {
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing:	border-box;
-
 }
 
 input, label {
@@ -101,3 +100,20 @@ input, submit{
 	display: inline-block;
 	font-size: 16px;
 }
+
+a {
+	font-family: monospace;
+	text-decoration: underline;
+	font-weight: none;
+  }
+  
+  a:link {
+	color: Green;
+  }
+  
+  
+  a:hover {
+	color: black;
+	font-family: bold;
+  }
+  
